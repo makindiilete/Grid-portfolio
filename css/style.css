@@ -1,0 +1,41 @@
+.stack {
+  background: #000;
+  color: #fff; }
+
+#main-header img {
+  width: 100%;
+  height: 100%; }
+
+#main-header .port-item {
+  width: 30%; }
+  #main-header .port-item .fa {
+    font-size: 2em; }
+
+@media (min-width: 1199px) {
+  .fa2 .fa {
+    visibility: hidden; } }
+
+.port-item:hover {
+  opacity: 0.8;
+  cursor: pointer; }
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important; } }
+
+@media (min-width: 991px) {
+  .name .fa {
+    font-size: 25px; } }
+
+.reduced-warning {
+  background-color: #f9b260; }
+
+.reduced-success {
+  background-color: #21b072; }
+
+.reduced-danger {
+  background-color: #e54867; }
+
+.name-color {
+  background-color: #1b1b1b;
+  color: #fff; }
